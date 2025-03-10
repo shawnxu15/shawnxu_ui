@@ -1,0 +1,219 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-7.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2016",
+                        "end": "06/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Software** Engineer",
+                            "info": "Sapphire Studio",
+                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
+                            "tags": ["PHP", "MySQL", "Laravel"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2018",
+                        "end": "12/01/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Full-Stack** Engineer",
+                            "info": "Coursera",
+                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
+                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "12/01/2020",
+                        "end": "11/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Backend** Engineer",
+                            "info": "Adobe Inc.",
+                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
+                            "tags": ["Java", "AWS", "REST", "Docker"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-apple",
+                        "faColors": {"bg": "#111", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "12/01/2022",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Senior Backend** Developer",
+                            "info": "Apple Inc.",
+                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
+                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Backend"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-python",
+                        "faColors": {"bg": "#306998", "fill": "#EEE"}
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": "06/20/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python 3.x",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "10/10/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-docker",
+                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
+                    },
+                    "value": 60,
+                    "dates": {
+                        "start": "04/15/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-life-ring",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "07/10/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kubernetes",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-server",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": "05/20/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "info": null
+                        }
+                    }
+                }
+                
+            ]
+        },
+        {
+            "id": "certification",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "certifications"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-life-ring",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CKD",
+                            "info": "06/20/2020"
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}

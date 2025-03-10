@@ -1,0 +1,136 @@
+{
+    "locales": {
+        "en": {
+            "title": "Portfolio",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Portfolio**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "portfolio",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
+                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Placeholder1",
+                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
+                            "tags": ["API", "REST", "Backend"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/project-logo-7.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/pictures/project-screenshot-1.webp",
+                                "images/pictures/project-screenshot-2.webp",
+                                "images/pictures/project-screenshot-3.webp",
+                                "images/pictures/project-screenshot-4.webp",
+                                "images/pictures/project-screenshot-5.webp"
+                            ]
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Placeholder2",
+                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
+                            "tags": ["Flutter", "E-mail", "Communication"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Placeholder3",
+                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
+                            "tags": ["Next.js", "Finance", "Money"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
